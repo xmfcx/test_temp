@@ -1,27 +1,29 @@
-<!-- Remove unused lines. -->
 ## Description
 
 
 
 ## Related links
 
-Parent Issue:
-- 
+**Parent Issue:**
+- Link
 
-<!-- Private links should be clearly marked as private. Example:
-- [FOO COMPANY INTERNAL LINK](https://example.com) -->
+<!-- ⬇️🟢
+**Private Links:**
+- [CompanyName internal link]()
+⬆️🟢 -->
 
-## Tests performed
+## How was this PR tested?
 
-<!-- How was this PR tested? -->
+
 
 ## Notes for reviewers
 
-<!-- Write additional information if necessary. It should be written if there are related PRs that should be merged at the same time. -->
+None.
 
 ## Interface changes
 
-<!-- Describe any changed interfaces, such as topics, services, or parameters. -->
+None.
+<!-- ⬇️🔴
 
 ### Topic changes
 
@@ -40,8 +42,21 @@ Parent Issue:
 
 ### ROS Parameter Changes
 
-| Parameter Name       | Default Value | Update Description                                  |
-|:---------------------|:--------------|:----------------------------------------------------|
-| `example_parameters` | `1.0`         | Describe the parameter and also explain the updates |
+#### Additions and removals
+
+| Change type   | Parameter Name | Type     | Default Value | Description       |
+|:--------------|:---------------|:---------|:--------------|:------------------|
+| Added/Removed | `param_name`   | `double` | `1.0`         | Param description |
+
+#### Modifications
+
+| Version | Parameter Name   | Type     | Default Value | Description       |
+|:--------|:-----------------|:---------|:--------------|:------------------|
+| Old     | `old_param_name` | `double` | `1.0`         | Param description |
+| New     | `new_param_name` | `double` | `1.0`         | Param description |
+
+🔴⬆️ -->
 
 ## Effects on system behavior
+
+None.
